@@ -1,7 +1,3 @@
-/* :root{
-    --progress-degree:0%;    //same as down given value both will work same
-} */
-
 *{
     margin:0;
     padding:0;
@@ -87,7 +83,7 @@ h1{
 }
 
 .statcontainer{
-    /* display:hidden;    nai kaam kare km k hidden inline css nu attribute che*/
+    /* display:hidden;*/
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
