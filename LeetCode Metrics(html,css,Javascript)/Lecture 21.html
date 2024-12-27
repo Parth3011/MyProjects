@@ -1,0 +1,58 @@
+<!-- 
+
+    https://leetcode-stats-api.herokuapp.com/<Username>
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leetcode Metrics</title>
+    <link rel="stylesheet" href="Lecture 21.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Leetcode Metric</h1>
+
+        <div class="usercontainer">
+            <p>Enter your username below : </p>
+            <div class="userinput">
+                <input type="text" placeholder="Enter your username here" id="input" >
+                <button id="searchbtn">Search</button>
+            </div>
+        </div>
+
+        <div class="statcontainer">
+            <div class="progress">
+                <div class="progressitem">
+                    <div class="easyprogress circle">
+                        <span id="easylabel"></span>
+                        <p>Easy</p>
+                    </div>
+                </div>
+                <div class="progressitem">
+                    <div class="mediumprogress circle">
+                        <span id="mediumlabel"></span>
+                        <p>Medium</p>
+                    </div>
+                </div>
+                <div class="progressitem">
+                    <div class="hardprogress circle">
+                        <span id="hardlabel"></span>
+                        <p>Hard</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="statcard">
+                <!-- Directly populate card here from the JS code -->
+
+            </div>
+        </div>
+
+    </div>
+    <script src="Lecture 21.js"></script>
+</body>
+</html>
